@@ -102,7 +102,7 @@ func getSpace(weekDay : Int) -> Int {
 var spaceNum = getSpace(weekDay: inputData[0].input!)
 func addSpaces(_ n : Int) {
     if (n != 0) {
-        for i in 1...n {
+        for _ in 1...n {
             output.append(" ")
         }
     }
